@@ -1,5 +1,5 @@
 {
-  "name": "nodejs",
+  "name": "a",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^4.4.0",
-    "@types/node": "^18.0.6",
-    "node-fetch": "^3.2.6"
+    "pino": "^8.7.0",
+    "qrcode-terminal": "^0.12.0"
   }
 }
