@@ -18,7 +18,7 @@ const startBot = async () => {
   });
   sock.ev.on("connection.update", (update) => {
     const { connection, lastDisconnect } = update;
-    console.log(connection);
+    console.log(update.qr)
   });
   sock.ev.on("creds.update", saveState);
 };
